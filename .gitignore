@@ -1,1 +1,32 @@
+# Ignore .github directory
 .github/**
+
+# Ignore node_modules and dist
+node_modules/
+dist/
+
+# System files
+.DS_Store
+.Trash/
+.bash_history
+.bash_profile
+.bashrc
+.zsh_history
+.zshrc
+
+# Ignore Mac-specific metadata
+.localized
+
+# Ignore all other files
+/*
+
+# But keep the current project directory files
+!/README.md
+!/*.json
+!/*.js
+!/.babelrc
+!/.gitignore
+!src/
+!webpack.config.js
+!webpack.prod.js
+!webpack.dev.js
